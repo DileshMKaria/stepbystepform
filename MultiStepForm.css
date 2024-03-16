@@ -1,0 +1,43 @@
+.multi-step-form-container {
+    background: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .step {
+    margin-bottom: 20px;
+  }
+  
+  .step input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: lightyellow;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:last-child {
+    margin-right: 0;
+  }
+  
+  .buttons button.previous {
+    background: green;
+    color: white;
+  }
+  
+  .buttons button.next {
+    background: red;
+    color: white;
+  }
+  
